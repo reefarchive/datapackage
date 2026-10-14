@@ -1,4 +1,5 @@
 {
+  "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
   "name": "media",
   "title": "Media",
   "description": "Table with media files (images/videos) captured. Media files are stored in the `media/` folder and linked to records by `fileName`.",
@@ -66,7 +67,7 @@
       "name": "license",
       "type": "string",
       "description": "A legal document giving official permission to do something with the resource.",
-      "example": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "example": "https://creativecommons.org/licenses/by/4.0/legalcode",
       "constraints": {
         "required": true
       }
@@ -271,7 +272,7 @@
       "type": "date",
       "format": "default",
       "description": "Date on which the resource was changed. Formatted as an ISO 8601 string (YYYY-MM-DD).",
-      "example": "12/02/1969",
+      "example": "1969-02-12",
       "constraints": {
         "required": true
       }
