@@ -31,7 +31,7 @@ Media,minimumDepthInMetres,The least depth within a range of depths in metres.,1
 Media,maximumDepthInMetres,The greatest depth within a range of depths in metres.,25,WaterDepth,FALSE,1.0.0,active
 Media,depthRemarks,"Comments or notes about the depth description determination, explaining assumptions made or the protocol.","Depth range inferred from entire site dive log, no media specific depth available.",UserComment,FALSE,1.0.0,active
 Media,mediaComments,Any comments or notes about the media file.,Media file corrupted.,UserComment,FALSE,1.0.0,active
-Media,modified,Date on which the resource was changed. Formatted as an ISO 8601 string (YYYY-MM-DD).,1969/02/12,,TRUE,1.0.0,active
+Media,modified,Date on which the resource was changed. Formatted as an ISO 8601 string (YYYY-MM-DD).,1969-02-12,,TRUE,1.0.0,active
 Observation,observationID,A unique identifier of the observation.,58275b54-059f-4f3f-afa4-d501dfc3b470,,TRUE,0.0.1,under review
 Observation,mediaID,A unique identifier for the media.,52c8a4b0-45c7-4c31-b847-0d094e1208c5,,TRUE,0.0.1,under review
 Observation,observationType,The type of the observation.,"Fauna, Human, Unknown",,TRUE,0.0.1,under review
